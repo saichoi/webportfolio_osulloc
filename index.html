@@ -1,0 +1,866 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/pc.js"></script>
+    <script src="js/note.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/mo.js"></script>
+    <script src="js/event.js"></script>
+    
+
+</head>
+
+<body>
+
+
+    <div id="wrap">
+
+        <section id="section_1">
+
+            <header>
+                <div id="in_header">
+                    <div id="h_logo">
+                        <a href="#">
+                            <img src="img/header/h_logo_2.png" />
+                        </a>
+                    </div>
+                    <!--h_logo end-->
+
+                    <ul id="menu_wrap">
+
+                        <li class="top_menu">
+                            <a href="#">Shop</a>
+
+                            <ul class="sub_menu">
+                                <li><a href="#">Tea Shop</a></li>
+                                <li><a href="#">Tea Wear Shop</a></li>
+                                <li><a href="#">Gift Shop</a></li>
+                                <li><a href="#">Weekly Best</a></li>
+                                <li><a href="#">뭉치면 할인UP</a></li>
+                                <li><a href="#">오설록 라운지</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="top_menu">
+                            <a href="#">The Life</a>
+
+                            <ul class="sub_menu">
+                                <li><a href="#">상품 구매후기</a></li>
+                                <li><a href="#">선물하기</a></li>
+                                <li><a href="#">다다익선(정기구독)</a></li>
+                                <li><a href="#">맞춤추천</a></li>
+                                <li><a href="#">MD's PICK</a></li>
+                                <li><a href="#">매장 방문기</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="top_menu">
+                            <a href="#">Event</a>
+
+                            <ul class="sub_menu">
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">온라인 쇼핑혜택</a></li>
+                                <li><a href="#">인스타그램</a></li>
+                                <li><a href="#">About Tea</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="top_menu">
+                            <a href="#">About OSULLOC</a>
+
+                            <ul class="sub_menu">
+                                <li><a href="#">Brand Story</a></li>
+                                <li><a href="#">Since 1979</a></li>
+                                <li><a href="#">오설록 차밭 이야기</a></li>
+                                <li><a href="#">숫자로 보는 오설록</a></li>
+                                <li><a href="#">티하우스 메뉴</a></li>
+                                <li><a href="#">매거진</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="top_menu">
+                            <a href="#">Jeju Tea Museum</a>
+
+                            <ul class="sub_menu">
+                                <li><a href="#">티뮤지엄 소개</a></li>
+                                <li><a href="#">티스톤 예약</a></li>
+                                <li><a href="#">제주 오설록 맵</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!--menu_wrap end-->
+
+                    <div id="side_menu">
+
+                        <div id="change_menu">
+
+                            <div id="login_wrap">
+
+                                <div class="login_btn"><a href="#">로그인</a></div>
+                                <div class="login_btn"><a href="#">|</a></div>
+                                <div class="login_btn"><a href="#">회원가입</a></div>
+
+                            </div>
+
+                            <div id="shopping">
+
+                                <div class="shop_btn"><img src="img/header/icon_08.png" /></div>
+                                <div class="shop_btn"><img src="img/header/icon_06.png" /></div>
+                                <div class="shop_btn"><img src="img/header/icon_07.png" /></div>
+
+                            </div>
+
+                        </div>
+                        <!--change_mene end-->
+
+                        <div id="ham">
+                            <a class="menu-trigger" href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                        <!--ham end-->
+
+                    </div>
+                    <!--side_menu end-->
+
+                </div>
+
+            </header>
+
+            <ul id="hidden_menu_wrap">
+                <div id="top_menu_wrap">
+                    <li class="h_top_menu">
+                        <a href="#">Shop</a>
+
+                        <ul class="h_sub_menu">
+                            <li><a href="#">Tea Shop</a></li>
+                            <li><a href="#">Tea Wear Shop</a></li>
+                            <li><a href="#">Gift Shop</a></li>
+                            <li><a href="#">Weekly Best</a></li>
+                            <li><a href="#">뭉치면 할인UP</a></li>
+                            <li><a href="#">오설록 라운지</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="h_top_menu">
+                        <a href="#">The Life</a>
+
+                        <ul class="h_sub_menu">
+                            <li><a href="#">상품 구매후기</a></li>
+                            <li><a href="#">선물하기</a></li>
+                            <li><a href="#">다다익선(정기구독)</a></li>
+                            <li><a href="#">맞춤추천</a></li>
+                            <li><a href="#">MD's PICK</a></li>
+                            <li><a href="#">매장 방문기</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="h_top_menu">
+                        <a href="#">Event</a>
+
+                        <ul class="h_sub_menu">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">온라인 쇼핑혜택</a></li>
+                            <li><a href="#">인스타그램</a></li>
+                            <li><a href="#">About Tea</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="h_top_menu">
+                        <a href="#">About OSULLOC</a>
+
+                        <ul class="h_sub_menu">
+                            <li><a href="#">Brand Story</a></li>
+                            <li><a href="#">Since 1979</a></li>
+                            <li><a href="#">오설록 차밭 이야기</a></li>
+                            <li><a href="#">숫자로 보는 오설록</a></li>
+                            <li><a href="#">티하우스 메뉴</a></li>
+                            <li><a href="#">매거진</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="h_top_menu">
+                        <a href="#">Jeju Tea Museum</a>
+
+                        <ul class="h_sub_menu">
+                            <li><a href="#">티뮤지엄 소개</a></li>
+                            <li><a href="#">티스톤 예약</a></li>
+                            <li><a href="#">제주 오설록 맵</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <!--top_menu_wrap end-->
+                <div id="m_top_menu_wrap">
+                    <li class="m_h_top_menu">
+                        <a href="#">Shop</a>
+
+                        <ul class="m_h_sub_menu">
+                            <li><a href="#">Tea Shop</a></li>
+                            <li><a href="#">Tea Wear Shop</a></li>
+                            <li><a href="#">Gift Shop</a></li>
+                            <li><a href="#">Weekly Best</a></li>
+                            <li><a href="#">뭉치면 할인UP</a></li>
+                            <li><a href="#">오설록 라운지</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="m_h_top_menu">
+                        <a href="#">The Life</a>
+
+                        <ul class="m_h_sub_menu">
+                            <li><a href="#">상품 구매후기</a></li>
+                            <li><a href="#">선물하기</a></li>
+                            <li><a href="#">다다익선(정기구독)</a></li>
+                            <li><a href="#">맞춤추천</a></li>
+                            <li><a href="#">MD's PICK</a></li>
+                            <li><a href="#">매장 방문기</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="m_h_top_menu">
+                        <a href="#">Event</a>
+
+                        <ul class="m_h_sub_menu">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">온라인 쇼핑혜택</a></li>
+                            <li><a href="#">인스타그램</a></li>
+                            <li><a href="#">About Tea</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="m_h_top_menu">
+                        <a href="#">About OSULLOC</a>
+
+                        <ul class="m_h_sub_menu">
+                            <li><a href="#">Brand Story</a></li>
+                            <li><a href="#">Since 1979</a></li>
+                            <li><a href="#">오설록 차밭 이야기</a></li>
+                            <li><a href="#">숫자로 보는 오설록</a></li>
+                            <li><a href="#">티하우스 메뉴</a></li>
+                            <li><a href="#">매거진</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="m_h_top_menu">
+                        <a href="#">Jeju Tea Museum</a>
+
+                        <ul class="m_h_sub_menu">
+                            <li><a href="#">티뮤지엄 소개</a></li>
+                            <li><a href="#">티스톤 예약</a></li>
+                            <li><a href="#">제주 오설록 맵</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <!--m_top_menu_wrap end-->
+            </ul>
+            <!--hidden_menu_wrap end-->
+            <!--header end-->
+
+            <div id="left_side_1">
+                <div id="sec_logo">
+                    <img src="img/section_1/sec_logo.png" />
+                </div>
+
+            </div>
+            <!--left_side_1 end-->
+            
+            <div id="s_left_side_1">
+                <div id="s_sec_logo">
+                    <img src="img/section_1/sec_logo.png" />
+                </div>
+            </div>
+            <!--s_left_side_1 end-->
+
+            <div id="right_side_1">
+
+                <ul id="btn_1">
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+                <!--btn_1 end-->
+
+                <ul id="text_wrap_1">
+
+                    <li>
+
+                        <h3>아름다운 집념</h3>
+
+                        <p>“ 어느 나라를 가도 나라마다 독특한 차가 하나씩은 있는데 우리나라는 없다.
+                            어떤 희생을 치르더라도 우리의 전통 차문화를 정립하고 싶다.<br /><br />
+                            - 아모레퍼시픽 창업자 故 서성환 회장”
+                        </p>
+
+                    </li>
+
+                    <li>
+
+                        <h3>제주와의인연</h3>
+
+                        <p>돌과 바람이 전부였던 제주의 버려진 땅.
+                            <br />제주의 자연을 이해하고 극복하며 푸른 꿈을 45여년을 키워와
+                            <br />제주의 땅은 세계적인 녹차 산지로 손꼽히는 최고의 차 재배지로 거듭나다.
+                        </p>
+
+                    </li>
+
+
+                </ul>
+                <!--text_wrap_1 end-->
+
+            </div>
+            <!--right_side_1 end-->
+            
+             <div id="s_right_side_1">
+
+                <ul id="s_btn_1">
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+
+                <ul id="s_text_wrap_1">
+
+                    <li>
+
+                        <h3>아름다운 집념</h3>
+
+                        <p>“ 어느 나라를 가도 나라마다 독특한 차가 하나씩은 있는데 우리나라는 없다.
+                            어떤 희생을 치르더라도 우리의 전통 차문화를 정립하고 싶다.<br /><br />
+                            - 아모레퍼시픽 창업자 故 서성환 회장”
+                        </p>
+
+                    </li>
+
+                    <li>
+
+                        <h3>제주와의인연</h3>
+
+                        <p>돌과 바람이 전부였던 제주의 버려진 땅.
+                            <br />제주의 자연을 이해하고 극복하며 푸른 꿈을 45여년을 키워와
+                            <br />제주의 땅은 세계적인 녹차 산지로 손꼽히는 최고의 차 재배지로 거듭나다.
+                        </p>
+
+                    </li>
+
+
+                </ul>
+                <!--s_text_wrap_1 end-->
+
+            </div>
+            <!--s_text_wrap_1 end-->
+            
+            
+
+
+            <ul id="quick_btn">
+                <li><a href="#"><img src="img/section_1/icon_01.png" /></a></li>
+                <li><a href="#"><img src="img/section_1/icon-02.png" /></a></li>
+                <li><a href="#"><img src="img/section_1/icon-03.png" /></a></li>
+                <li><a href="#"><img src="img/section_1/icon-04.png" /></a></li>
+                <li><a href="#"><img src="img/section_1/icon-05.png" /></a></li>
+            </ul>
+            <!--quick_btn end-->
+
+        </section>
+        <!--section_1 end-->
+
+        <section id="section_2">
+
+            <div id="text_wrap_2">
+                <h1>천혜의 자연과 사람의 정성으로 만든 명차</h1>
+                <p>오설록은 생산에서 재배, 그리고 판매까지 한 곳에서 이루어지는 세계적으로도 손꼽히는
+                    최대 규모의 국산 차 브랜드입니다. 오설록은 제주라는 천혜의 자연 안에서 오설록의 자연과의
+                    상생을 통한 따뜻한 과학영농을 통해 최상의 찻잎을 얻기 위해 노력하고 있습니다.
+                </p>
+                <div class="more_btn"><a href="#">MORE ITEM</a></div>
+            </div>
+            <!--text_wrap_2 end-->
+
+            <div id="item_con">
+                <ul id="item_wrap_2">
+
+                    <li>
+                        <div class="item_img_2">
+
+                            <div class="tea_img">
+                                <img src="img/section_2/best_01.png" />
+
+                                <ul class="close_text_wrap_2">
+                                    <li>리뷰보기</li>
+                                    <li class="bar">|</li>
+                                    <li>장바구니</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="text_2">
+                            <div class="star_box">*****</div>
+                            <div class="tea_title">녹차밀크스프레드200g</div>
+                        </div>
+                    </li>
+                    <!--tea_1-->
+
+                    <li>
+                        <div class="item_img_2">
+
+                            <div class="tea_img">
+                                <img src="img/section_2/best_02.png" />
+
+                                <ul class="close_text_wrap_2">
+                                    <li>리뷰보기</li>
+                                    <li class="bar">|</li>
+                                    <li>장바구니</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="text_2">
+                            <div class="star_box">*****</div>
+                            <div class="tea_title">워터플러스 버라이어티팩 30g</div>
+                        </div>
+                    </li>
+                    <!--tea_2-->
+
+                    <li>
+                        <div class="item_img_2">
+
+                            <div class="tea_img">
+                                <img src="img/section_2/best_03.png" />
+
+                                <ul class="close_text_wrap_2">
+                                    <li>리뷰보기</li>
+                                    <li class="bar">|</li>
+                                    <li>장바구니</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="text_2">
+                            <div class="star_box">*****</div>
+                            <div class="tea_title">그린티웨하스 100g</div>
+                        </div>
+                    </li>
+                    <!--tea_3-->
+
+                    <li>
+                        <div class="item_img_2">
+
+                            <div class="tea_img">
+                                <img src="img/section_2/best_04.png" />
+
+                                <ul class="close_text_wrap_2">
+                                    <li>리뷰보기</li>
+                                    <li class="bar">|</li>
+                                    <li>장바구니</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="text_2">
+                            <div class="star_box">*****</div>
+                            <div class="tea_title">영귤섬 20입(아이스티)</div>
+                        </div>
+                    </li>
+                    <!--tea_4-->
+
+                    <li>
+                        <div class="item_img_2">
+
+                            <div class="tea_img">
+                                <img src="img/section_2/best_05.png" />
+
+                                <ul class="close_text_wrap_2">
+                                    <li>리뷰보기</li>
+                                    <li class="bar">|</li>
+                                    <li>장바구니</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="text_2">
+                            <div class="star_box">****</div>
+                            <div class="tea_title">가루녹차 40g</div>
+                        </div>
+                    </li>
+                    <!--tea_5-->
+
+                </ul>
+                <!--item_wrap_2 end-->
+            </div>
+            <!--item_con end-->
+
+            <div id="s_item_con">
+                <div id="s_img_wrap_2">
+                    <ul id="s_item_wrap_2">
+
+                        <li class='item_2'>
+                            <div class="s_item_img_2">
+
+                                <div class="s_tea_img">
+                                    <img src="img/section_2/best_01.png" />
+
+                                    <ul class="s_close_text_wrap_2">
+                                        <li>리뷰보기</li>
+                                        <li class="s_bar">|</li>
+                                        <li>장바구니</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="s_text_2">
+                                <div class="s_star_box">*****</div>
+                                <div class="s_tea_title">녹차밀크스프레드200g</div>
+                            </div>
+                        </li>
+                        <!--tea_1-->
+
+                        <li class='item_2'>
+                            <div class="s_item_img_2">
+
+                                <div class="s_tea_img">
+                                    <img src="img/section_2/best_02.png" />
+
+                                    <ul class="s_close_text_wrap_2">
+                                        <li>리뷰보기</li>
+                                        <li class="s_bar">|</li>
+                                        <li>장바구니</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="s_text_2">
+                                <div class="s_star_box">*****</div>
+                                <div class="s_tea_title">워터플러스 버라이어티팩 30g</div>
+                            </div>
+                        </li>
+                        <!--tea_2-->
+
+                        <li class='item_2'>
+                            <div class="s_item_img_2">
+
+                                <div class="s_tea_img">
+                                    <img src="img/section_2/best_03.png" />
+
+                                    <ul class="s_close_text_wrap_2">
+                                        <li>리뷰보기</li>
+                                        <li class="s_bar">|</li>
+                                        <li>장바구니</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="s_text_2">
+                                <div class="s_star_box">*****</div>
+                                <div class="s_tea_title">그린티웨하스 100g</div>
+                            </div>
+                        </li>
+                        <!--tea_3-->
+
+                        <li class='item_2'>
+                            <div class="s_item_img_2">
+
+                                <div class="s_tea_img">
+                                    <img src="img/section_2/best_04.png" />
+
+                                    <ul class="s_close_text_wrap_2">
+                                        <li>리뷰보기</li>
+                                        <li class="s_bar">|</li>
+                                        <li>장바구니</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="s_text_2">
+                                <div class="s_star_box">*****</div>
+                                <div class="s_tea_title">영귤섬 20입(아이스티)</div>
+                            </div>
+                        </li>
+                        <!--tea_4-->
+
+                        <li class='item_2'>
+                            <div class="s_item_img_2">
+
+                                <div class="s_tea_img">
+                                    <img src="img/section_2/best_05.png" />
+
+                                    <ul class="s_close_text_wrap_2">
+                                        <li>리뷰보기</li>
+                                        <li class="s_bar">|</li>
+                                        <li>장바구니</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="s_text_2">
+                                <div class="s_star_box">****</div>
+                                <div class="s_tea_title">가루녹차 40g</div>
+                            </div>
+                        </li>
+                        <!--tea_5-->
+
+
+
+                    </ul>
+                    <!--s_item_wrap_2 end-->
+
+                    <div id="left_btn_2"><img src="img/section_2/left.png" /></div>
+                    <div id="right_btn_2"><img src="img/section_2/right.png" /></div>
+
+                </div>
+                <!--s_img_wrap_2 end-->
+
+
+            </div>
+            <!--s_item_con end-->
+
+        </section>
+        <!--section_2 end-->
+
+        <section id="section_3">
+
+            <div id="text_wrap_3">
+
+                <h1>TEA WEAR</h1>
+                <p>다채로운 오설록의 차를
+                    <br />즐길 수 있는 다양한 Tea ware를 소개합니다.
+                </p>
+                <div class="more_btn"><a href="#">MORE ITEM</a></div>
+
+            </div>
+            <!--text_wrap_3 end-->
+
+            <!--<ul id="btn_3">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>-->
+            <!--btn_3 end-->
+
+        </section>
+        <!--section_3 end-->
+
+        <section id="section_4">
+
+            <ul class="text_wrap_4">
+
+                <li>
+
+                    <h1>잎차 8종 역시즌 20% 할인</h1>
+                    <p>장마철 따뜻한 차 한 잔 어떠세요?</p>
+                    <span>2020년 8월 10일 ~ 2020년 8월 24일</span>
+
+                </li>
+
+                <li>
+
+                    <h1>아이스티야, 여름을 부탁해</h1>
+                    <p>아이스티 8종 최대 30% 할인</p>
+                    <span>2020년 8월 5일 ~ 2020년 8월 19일</span>
+
+
+                </li>
+
+                <li>
+
+                    <h1>잘자요, 여름날의 밤</h1>
+                    <p>잠 못 이루는 밤을 다독이는 무카페인 허브티 한 잔</p>
+                    <span>2020년 7월 28일 ~ 2020년 8월 11일</span>
+
+                </li>
+
+                <li>
+
+                    <h1>오설록 티아이스크림 오픈</h1>
+                    <p>제주에서 줄서서 먹던 티 아이스크림
+                        <br />워터플러스 3입 샘플도 함께 즐겨보세요!</p>
+                    <span>2020년 8월 10일 ~ 2020년 8월 24일</span>
+
+                </li>
+
+                <li>
+
+                    <h1>8월 한정 심/야/특/가</h1>
+                    <p>수,목,금 단 6시간 최대 30% 할인!</p>
+                    <span>2020년 8월 10일 ~ 2020년 8월 28일</span>
+
+                </li>
+
+                <div class="more_btn"><a href="#">MORE EVENT</a></div>
+
+            </ul>
+            <!--text_wrap_4 end-->
+
+            <ul id="btn_4">
+                <li class="active"><a href="#"></a></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+
+        </section>
+        <!--section_4 end-->
+
+        <section id="section_5">
+
+            <div id="left_side_5">
+
+                <div id="l_title_wrap_5">
+                    <div id="eng_title">Magazine</div>
+                    <div id="kr_title">매거진</div>
+                </div>
+
+                <div id="view_more"><a href="#">view more+</a></div>
+
+                <ul id="mgz_img_wrap">
+                    <li><img src="img/section_5/magazine_01.jpg" /></li>
+                    <li><img src="img/section_5/magazine_02.jpg" /></li>
+                    <li><img src="img/section_5/magazine_03.jpg" /></li>
+                </ul>
+
+            </div>
+            <!--left_side_end-->
+            <div id="right_side_5">
+
+                <h1>Jeju Osulloc Tea Museum</h1>
+                <p>우리 차의 역사와 문화를 알리다</p>
+                <div id="img_5"><img src="img/section_5/teamsu.png" /></div>
+
+            </div>
+            <!--right_side_end-->
+            
+            <div id="m_left_side_5">
+
+                <div id="m_l_title_wrap_5">
+                    <div id="m_eng_title">Magazine</div>
+                    <div id="m_kr_title">매거진</div>
+                </div>
+
+                <div id="m_view_more"><a href="#">view more+</a></div>
+
+                <ul id="m_mgz_img_wrap">
+                    <li><img src="img/section_5/magazine_01.jpg" /></li>
+                    <li><img src="img/section_5/magazine_02.jpg" /></li>
+                    <li><img src="img/section_5/magazine_03.jpg" /></li>
+                </ul>
+
+            </div>
+            <!--left_side_end-->
+            <div id="m_right_side_5">
+
+                <h1>Jeju Osulloc Tea Museum</h1>
+                <p>우리 차의 역사와 문화를 알리다</p>
+                <div id="m_img_5"><img src="img/section_5/teamsu.png" /></div>
+
+            </div>
+            <!--right_side_end-->
+
+        </section>
+        <!--section_5 end-->
+
+        <footer>
+
+            <div id="svc_wrap">
+                <ul id="svc_btn">
+                    <li>
+                        <div><a href="#"><img src="img/footer/icon-1.png" /></a></div>
+
+                        <p>전화문의</p>
+                    </li>
+
+
+
+                    <li>
+                        <div><a href="#"><img src="img/footer/icon-2.png" /></a></div>
+
+                        <p>이메일문의</p>
+                    </li>
+
+
+
+                    <li>
+                        <div><a href="#"><img src="img/footer/icon-3.png" /></a></div>
+
+                        <p>매장안내</p>
+                    </li>
+
+
+
+                    <li>
+                        <div><a href="#"><img src="img/footer/icon-4.png" /></a></div>
+
+                        <p>맴버쉽혜택</p>
+                    </li>
+
+
+
+
+                    <li>
+                        <div><a href="#"><img src="img/footer/icon-5.png" /></a></div>
+
+                        <p>FAQ</p>
+                    </li>
+
+
+
+                    <li>
+                        <div><a href="#"><img src="img/footer/icon-6.png" /></a></div>
+
+                        <p>1:1문의</p>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <!--svc_wrap end-->
+
+            <div id="in_footer">
+
+                <div id="f_logo"><a href="#"><img src="img/footer/f_logo.png" /></a></div>
+
+                <div id="copyright">
+                    <span>회사소개 | 서비스 | 이용약관 | 개인정보 처리방침 | 영상정보 처리방침 | 뷰티포인트 | 임직원할인 | 사이트맵 | 전자공고</span><br /><br />
+                    ㈜ 오설록<br />
+                    대표이사:서혁제 주소:서울특별시 용산구 한강대로 100, 14층(한강로2가) 사업자등록번호: 390-87-01499 사업자 정보확인 ><br />
+                    통신판매업신고번호:2019-서울용산-1173호 호스팅제공자: ㈜오설록<br />
+
+                    (주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자 이며 통신판매의 당사자가 아닙니다.<br />
+                    따라서 입점판매자가 등록한 상품정보 및 거래에 대해 책임을 지지 않습니다.
+                </div>
+                <!--copyright end-->
+
+                <ul id="buy_svc">
+                    <li>(주)이니시스 구매안전서비스</li>
+                    <li><a href="#"><img src="img/footer/escrow.png" /></a></li>
+                    <li>고객님의 안전거래를 위해 현금 거래에 대해
+                        이니페이 에스크로서비스를 이용하실 수 있습니다.</li>
+                </ul>
+
+            </div>
+            <!--in_footer end-->
+
+        </footer>
+        <!--footer end-->
+
+    </div>
+
+</body>
+
+</html>
